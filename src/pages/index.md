@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: hello
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience1
-subheading: Support sustainable farming while enjoying a cup
+title: きっかけから、活躍まで 
+image: /img/officenew.png
+heading: Great coffee with a conscience
+subheading: We are ASIA to JAPAN
 mainpitch:
   title: Why Kaldi
   description: >

@@ -16,6 +16,12 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
+    <div class="my-48 pt-20 pb-20 md:py-8 px-32 bg-white">
+      <h1 class="text-6xl tracking-widest" style={{fontFamily: 'Dosis'}}>
+      {title} <br/>
+       {subheading}
+       </h1>
+      </div>
     <div
       className="full-width-image margin-top-0"
       style={{
@@ -24,12 +30,13 @@ export const IndexPageTemplate = ({
         })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
+        height: "500px",
       }}
     >
       <div
         style={{
           display: 'flex',
-          height: '200px',
+          height: '150px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
@@ -37,29 +44,13 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-weight-bold"
           style={{
-            backgroundColor: '#000',
             color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
+            fontSize: "6rem",
+            backgroundColor: 'black'
           }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+       />
       </div>
     </div>
     <section className="section section--gradient">
