@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: きっかけから、活躍まで 
-image: /img/officenew.png
+image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: We are ASIA to JAPAN
 mainpitch:
